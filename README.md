@@ -5,7 +5,7 @@ You can see this in how the backgroud color of the site do not take away any vis
 from the rest of the website along side with the white background inside the "card" you now can see the game lays inside a box.
 
 The buttons of the website got a more regular color to it, than it did on the design part because it was to harsh on the eyes. So I went with a normal red color on the
-backgroud of the buttons and white color on the fonts.
+backgroud of the buttons and black color on the fonts.
 I also made changes to the search bar and shopping cart. They both got deleted from the page, the reason for this is I do not think they fitted my website, in this design.
 I kept the color scheme, the font family and font size.
 
