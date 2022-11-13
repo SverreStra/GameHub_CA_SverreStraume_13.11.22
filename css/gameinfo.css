@@ -1,0 +1,46 @@
+.container-info {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr;
+  padding-block: 1.5rem;
+  width: min(95%, 70rem);
+  margin-inline: auto;
+  justify-content: center;
+}
+
+.game-info {
+  border: 2px solid black;
+  border-radius: 25px;
+  background: #fff;
+}
+
+.container-info img {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.container-info h1 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container-info p {
+  font-size: 15px;
+  font-weight: normal;
+  text-align: center;
+  padding: 5px;
+}
+
+
+.container-info h3 {
+  float: right;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.buy-game {
+  text-align: center;
+}
+

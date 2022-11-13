@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background: #879BBF;
+  overflow-x: hidden;
+}
+
+
+nav,
+#menu-checkbox {
+  display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+  display: block;
+}
+
+
+
+header {
+  position: relative;
+  background: #fff;
+  padding: 5px;
+  font-size: 3rem;
+  border: 2px solid black;
+}
+
+.logo {
+  display: none;
+  font-weight: bold;
+}
+
+span {
+  color: #003087;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+nav {
+  position: absolute;
+  background: #fff;
+  left: 0px;
+}
+
+nav li {
+  display: block;
+  color: #000;
+  padding: 10px 20px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #003087;
+}
+
+
+.logo-img {
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+.heading-main {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+
+.heading-main p {
+  display: none;
+}
+
+.btn {
+  border: 2px solid black;
+  border-radius: 25px 25px 25px 25px;
+  margin: auto;
+  padding: 4px;
+  background: red;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/*Games on main page also linked to the game page*/
+.container-main-page {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat (3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  padding-block: 1.5rem;
+  width: min(95%, 70rem);
+  margin-inline: auto;
+  justify-content: center;
+}
+
+/*Footer css*/
+.footer {
+  background: #637BA7;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr;
+  padding-block: 2rem;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.copyright {
+  text-align: center;
+}
+
+/*Checkout page*/
+ .checkout-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  align-self: center;
+  gap: 1rem;
+  padding-block: 1.5rem;
+  width: min(95%, 70rem);
+  margin-inline: auto;
+  justify-content: center;
+ }
+
+ .checkout-container img {
+  align-items: center;
+  width: 300px;
+  padding: 5rem;
+  margin: auto; 
+ }
+
+ .checkout-merch {
+  font-weight: bold;
+  text-align: center;
+  padding: 25px;
+  margin: 25px;
+  margin-bottom: 25px;
+  font-size: 35px;
+  background: #fff;
+  border-radius: 25px;
+  height: auto;
+ }
+
+ .price {
+  border: 2px red;
+  border-radius: 5px;
+  text-decoration: underline;
+  color: #003087;
+ }
+
+ .pay-btn {
+  text-align: center;
+  margin-bottom: 25px;
+ }
+
+ .visa {
+  font-weight: bold;
+  color: #fff;
+  background: red;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 3px 16px 3px 16px;
+  margin: 1rem;
+ }
+
+ .paypal {
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 3px 16px 3px 16px;
+  color: #fff;
+  background: #003087;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 1rem;
+ }
+
+ .forms {
+  display: grid;
+  padding: 1rem;
+  margin: auto;
+  border: 2px solid black;
+ }
+
+ .forms-input {
+  border: 5px solid;
+  border-radius: 25px;
+
+ }
+
+ .checkout-btn {
+  border: 2px solid black;
+  border-radius: 25px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.8rem 1rem;
+  margin-top: 50px;
+  background: red;
+  margin: auto;
+ }
+
+ /*Game Checked page*/
+
+ .checked-merch {
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+  margin: auto;
+  margin-bottom: 25px;
+  font-size: 10px;
+  background: #fff;
+  border-radius: 25px;
+ }
+
+
+
+ 
+
+
+

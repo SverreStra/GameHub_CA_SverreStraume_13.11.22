@@ -1,0 +1,31 @@
+.checkout-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  align-self: center;
+  gap: 1rem;
+  padding-block: 1.5rem;
+  width: min(95%, 70rem);
+  margin-inline: auto;
+  justify-content: center;
+ }
+
+ .checkout-container img {
+  align-items: center;
+  width: 500px;
+  padding: 5rem;
+  margin: auto; 
+ }
+
+
+ .checkout-merch {
+  font-weight: bold;
+  text-align: center;
+  padding: 25px;
+  margin: 25px;
+  margin-bottom: 25px;
+  font-size: 35px;
+  background: #fff;
+  border-radius: 25px;
+  height: auto;
+ }

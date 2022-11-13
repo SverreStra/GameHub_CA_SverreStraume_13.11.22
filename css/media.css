@@ -1,0 +1,436 @@
+@media (min-width: 720px) {
+  header {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav {
+    display: inline-block;
+    position: static;
+  }
+
+  .hamburger-icon {
+    display: none;
+    margin-left: 15px;
+  }
+
+  .logo {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+  }
+
+  nav ul {
+    font-size: 3rem;
+  }
+
+  nav li {
+    display: inline-block;
+    font-size: 1.2rem;
+  }
+
+  .heading-main {
+    margin-bottom: 25px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .heading-main p {
+    display: block;
+  }
+  /*Main Page 720px*/
+
+  .container-main-page {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+  }
+
+  .main-page  {
+    text-align: center;
+    background: #fff;
+    padding: 2rem;
+    margin: auto;
+  }
+  /*Game page 720px*/
+
+  .container-game-page {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    padding-block: 1rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .game-page {
+    border: 2px solid black;
+    border-radius: 25px;
+    background: #fff;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+  }
+
+
+  /*Game Checked page 720px*/
+
+  .checked-merch {
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+    margin-bottom: 25px;
+    font-size: 25px;
+    background: #fff;
+    border-radius: 25px;
+   }
+
+   .checkout-container img {
+    align-items: center;
+    width: 400px;
+    padding: 5rem;
+    margin: auto; 
+   }
+
+/*About page 720px*/
+
+.about h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.about p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.check-store h2 {
+  font-size: 45px;
+}
+
+.check-store .btn {
+  font-size: 35px;
+}
+
+/*Game info 720px page*/
+
+.container-info h1 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container-info p {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  padding: 5px;
+}
+
+.container-info img {
+  display: block;
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  justify-content: center;
+}
+
+
+.container-info h3 {
+  float: right;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.buy-game {
+  text-align: center;
+  font-size: 25px;
+}
+
+}
+
+@media (min-width: 900px) {
+  header {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav {
+    display: inline-block;
+    position: static;
+  }
+
+  .hamburger-icon {
+    display: none;
+    margin-left: 15px;
+  }
+
+  .logo {
+    display: inline-block;
+    font-size: 1.8rem;
+    padding-left: 25px;
+  }
+
+  nav ul {
+    font-size: 3rem;
+  }
+
+  nav li {
+    display: inline-block;
+    font-size: 1.5rem;
+  }
+
+  .heading-main {
+    margin-bottom: 25px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+  /*Main Page 900px screen*/
+
+  .container-main-page {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+  }
+
+  .main-page  {
+    text-align: center;
+    background: #fff;
+    padding: 2rem;
+    margin: auto;
+  }
+  /*Game page 900px screen*/
+
+  .container-game-page {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    padding-block: 1rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .game-page {
+    border: 2px solid black;
+    border-radius: 25px;
+    background: #fff;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+  }
+
+
+  /*Game Checked page 900px screen*/
+
+  .checked-merch {
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+    margin-bottom: 25px;
+    font-size: 25px;
+    background: #fff;
+    border-radius: 25px;
+   }
+
+   .checkout-container img {
+    align-items: center;
+    width: 500px;
+    padding: 5rem;
+    margin: auto; 
+   }
+
+/*Game info page 900px*/
+.container-info img {
+  display: block;
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  justify-content: center;
+}
+
+/*About page 900px*/
+.about h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.about p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.check-store h2 {
+  font-size: 45px;
+}
+
+.check-store .btn {
+  font-size: 35px;
+}
+
+}
+
+
+@media (min-width: 1204px) {
+ 
+  header {
+    display: flex;
+    justify-content: space-around;
+  }
+ 
+ 
+  nav {
+    display: inline-block;
+    position: static;
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+
+  .logo {
+    display: inline-block;
+    font-size: 3rem;
+  }
+
+  nav ul {
+    font-size: 3.5rem;
+    
+  }
+
+  nav li {
+    display: inline-block;
+    font-size: 2.5rem;
+    justify-content: center;
+  }
+
+  .heading-main h1 p {
+    margin-bottom: 25px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /*Main page 1204px screen*/
+
+  .container-main-page {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-page  {
+    text-align: center;
+    border-radius: 25px;
+    background: #fff;
+    padding: 1rem;
+    margin: auto;
+  }
+  /*About page 1024px*/
+
+  .container-about {
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: 1fr;
+    padding-block: 2.5rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+    justify-content: center;
+  }
+
+  .about h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  .about p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+  .check-store {
+    font-size: 45px;
+  }
+  /*Game 1204px Page*/
+
+  .container-game-page {
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-block: 2.5rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .game-page {
+    border: 2px solid black;
+    border-radius: 25px;
+    background: #fff;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+  }
+
+/*Game info 1204px page*/
+
+  .container-info h1 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .container-info img {
+    display: block;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  .container-info p {
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  
+  .container-info h3 {
+    float: right;
+    font-size: 25px;
+    padding: 10px;
+  }
+  
+  .buy-game {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .game-info img {
+    align-items: center;
+  }
+}

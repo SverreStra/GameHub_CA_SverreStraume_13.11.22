@@ -1,0 +1,88 @@
+.container-main-page {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat (3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  padding-block: 1.5rem;
+  width: min(95%, 70rem);
+  margin-inline: auto;
+  justify-content: center;
+}
+
+.main-page  {
+  text-align: center;
+  border-radius: 25px;
+  background: #fff;
+  padding: 2rem;
+  margin: auto;
+  width: 100%;
+}
+
+.game-main {
+  width: 15rem;
+
+}
+
+.price-tag {
+  font-size: 45px;
+  padding: 10px;
+}
+
+.btn {
+  border: 2px solid black;
+  border-radius: 25px 25px 25px 25px;
+  margin: auto;
+  padding: 4px;
+  background: red;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+
+.game-main  {
+  width: 15rem;
+  height: 15rem;
+}
+
+
+
+.head-game {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.paragraph-game {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.check-store {
+  text-align: center;
+  align-items: center;
+}
+
+.game-page-btn {
+  font-size: 2rem;
+}
+
+.game-page-tag {
+  font-size: 1.5rem;
+}
+
+.game-page {
+  border: 2px solid black;
+  border-radius: 25px;
+  background: #fff;
+  margin: 0.7rem;
+  padding: 0.5rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.game-page-tag {
+  font-size: 45px;
+}

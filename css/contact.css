@@ -1,0 +1,36 @@
+.contact-container {
+  display: grid;
+  padding: 1rem;
+  margin: 1rem;
+  justify-content: center;
+}
+
+.contact-container h1 {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.form-input {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+textarea {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.btn-contact {
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 10px 15px 10px 15px;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #000;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  background: red;
+}
