@@ -27,6 +27,7 @@ I made "ALT" text for all the pictures and the different pages that you can clic
 
 What I have learned from this CA is that one wrong line of code can make a mess of alot. I learned how to seperate the CSS files, something I have done to most of
 the pages. Some of the pages I kept on the Style.css page.
+I feel that I have learned alot of how to make my code as DRY as possible, but I still have a long way to go. To get it as DRY as possible.
 
 The site have the following pages:
 
@@ -43,7 +44,9 @@ Game info page (gameinfo.html)
 
 
 To open this:
-You need Windows 10, Visual Studio Code.
+You need:
+Windows 10 or newer.
+Visual Studio Code.
 
 
 The website is hosted on Netlify
