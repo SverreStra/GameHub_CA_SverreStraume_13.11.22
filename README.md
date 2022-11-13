@@ -51,7 +51,7 @@ Visual Studio Code.
 
 The website is hosted on Netlify
 here is the link to it:
-https://frolicking-clafoutis-a95244.netlify.app/index.html
+https://coruscating-lolly-78d998.netlify.app/index.html
 
 
 
