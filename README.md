@@ -8,6 +8,9 @@ The buttons of the website got a more regular color to it, than it did on the de
 backgroud of the buttons and black color on the fonts.
 I also made changes to the search bar and shopping cart. They both got deleted from the page, the reason for this is I do not think they fitted my website, in this design.
 I kept the color scheme, the font family and font size.
+I wanted to try out both CSS Flex CSS Grid. So I used Flex for my navbar, that helped me alot in centering my text in the navbar.
+I used CSS Grid for my main part of the sites. I was difficult to get it to work in the beginning, but when I understood the basics, I felt like it was much more easy
+to use than Flexbox, so for the upcomming projects I will use more CSS Grid.
 
 The logo of Game Hub I have put below the Navbar, the reason for this is I felt i made my website more of a arcade site than what it did as part of the navbar.
 I wanted the navbar to be text only this time around.
@@ -28,6 +31,8 @@ I made "ALT" text for all the pictures and the different pages that you can clic
 What I have learned from this CA is that one wrong line of code can make a mess of alot. I learned how to seperate the CSS files, something I have done to most of
 the pages. Some of the pages I kept on the Style.css page.
 I feel that I have learned alot of how to make my code as DRY as possible, but I still have a long way to go. To get it as DRY as possible.
+I learned alot when i came to using Mozilla Devtools. It helped me so much in how to style my pictures and get my navbar to be responsive to the different screen
+sizes.
 
 The site have the following pages:
 
@@ -40,7 +45,8 @@ Checkout page (checkout.html)
 Game info page (gameinfo.html)
 
 
-
+I made my Navbar the same way it was made in the Module 2 about Navigation, where I got the Hamburger Menu to work properly. The difference is that I put the my Nav
+iside a UL then LI
 
 
 To open this:
