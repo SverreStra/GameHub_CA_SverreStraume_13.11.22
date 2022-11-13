@@ -107,6 +107,7 @@ nav li a {
 }
 
 /*Footer css*/
+
 .footer {
   background: #637BA7;
   display: grid;
@@ -122,6 +123,7 @@ nav li a {
 }
 
 /*Checkout page*/
+
  .checkout-container {
   display: grid;
   grid-template-columns: 1fr;

@@ -31,7 +31,7 @@
 
   .heading-main {
     margin-bottom: 25px;
-    color: white;
+    color: #000;
     font-size: 15px;
     text-align: center;
   }
@@ -188,12 +188,10 @@
     font-size: 1.5rem;
   }
 
-  .heading-main {
-    margin-bottom: 25px;
-    color: white;
-    font-size: 15px;
-    text-align: center;
-  }
+
+
+ 
+
   /*Main Page 900px screen*/
 
   .container-main-page {
@@ -211,6 +209,19 @@
     padding: 2rem;
     margin: auto;
   }
+
+  .heading-main {
+    margin-bottom: 25px;
+    color: #000;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .heading-main p {
+    font-size: 25px;
+  }
+
   /*Game page 900px screen*/
 
   .container-game-page {
@@ -319,13 +330,8 @@
     justify-content: center;
   }
 
-  .heading-main h1 p {
-    margin-bottom: 25px;
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    font-weight: bold;
-  }
+  
+
 
   /*Main page 1204px screen*/
 
